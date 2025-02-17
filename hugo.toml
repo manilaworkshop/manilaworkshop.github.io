@@ -49,14 +49,14 @@ intersection of information retrieval and climate change.
 name = "Github"
 url = "https://github.com/manilaworkshop"
 
-[[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 10
+# [[menu.main]]
+# identifier = "home"
+# name = "Home"
+# url = "/"
+# weight = 10
 
 [[menu.main]]
 identifier = "previous"
 name = "Previous Workshops"
-url = "/previous"
+url = "https://sites.google.com/view/ir-for-climate-impact/previous-workshops/manila24-workshop-page"
 weight = 20
