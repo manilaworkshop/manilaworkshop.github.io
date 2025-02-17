@@ -1,3 +1,62 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://manilaworkshop.github.io/"
+title = "IR for Climate Impact @ SIGIR 2025"
+paginate = 5
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "IR for Climate Impact @ SIGIR 2025"
+description = "Workshop on Information Retrieval for Climate Impact at SIGIR 2025"
+keywords = ["IR", "Climate Change", "SIGIR", "Workshop"]
+author = "Workshop Organizers"
+DateFormat = "January 2, 2006"
+defaultTheme = "light"
+disableThemeToggle = false
+
+showReadingTime = false
+showShareButtons = false
+showPostNavLinks = true
+showBreadCrumbs = true
+showCodeCopyButtons = true
+showRssButtonInSectionTermList = true
+showToc = true
+
+[params.assets]
+disableHLJS = true
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+
+[params.homeInfoParams]
+Title = "IR for Climate Impact @ SIGIR 2025"
+Content = """
+Welcome to the Workshop on Information Retrieval for Climate Impact at SIGIR 2025.
+This workshop aims to bring together researchers and practitioners working at the
+intersection of information retrieval and climate change.
+"""
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/manilaworkshop"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "previous"
+name = "Previous Workshops"
+url = "/previous"
+weight = 20
