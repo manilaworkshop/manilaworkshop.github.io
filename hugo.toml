@@ -15,8 +15,15 @@ minifyOutput = true
 [params]
 env = "production"
 title = "IR for Climate Impact @ SIGIR 2025"
-description = "Workshop on Information Retrieval for Climate Impact at SIGIR 2025"
-keywords = ["IR", "Climate Change", "SIGIR", "Workshop"]
+description = "Workshop on Information Retrieval for Climate Impact at SIGIR 2025, July 17, 2025, Padova, Italy"
+keywords = [
+    "IR",
+    "Climate Change",
+    "SIGIR",
+    "Workshop",
+    "IPCC",
+    "Climate Impact",
+]
 author = "Workshop Organizers"
 DateFormat = "January 2, 2006"
 defaultTheme = "light"
@@ -38,9 +45,11 @@ favicon32x32 = "/favicon-32x32.png"
 apple_touch_icon = "/apple-touch-icon.png"
 
 [params.homeInfoParams]
-Title = "IR for Climate Impact @ SIGIR 2025"
+Title = "MANILA25: IR for Climate Impact @ SIGIR 2025"
 Content = """
-Welcome to the Workshop on Information Retrieval for Climate Impact at SIGIR 2025.
+Workshop on Information Retrieval for Climate Impact at SIGIR 2025.
+July 17, 2025 | Padova, Italy
+
 This workshop aims to bring together researchers and practitioners working at the
 intersection of information retrieval and climate change.
 """
@@ -49,14 +58,18 @@ intersection of information retrieval and climate change.
 name = "Github"
 url = "https://github.com/manilaworkshop"
 
-# [[menu.main]]
-# identifier = "home"
-# name = "Home"
-# url = "/"
-# weight = 10
+[[params.socialIcons]]
+name = "EasyChair"
+url = "https://easychair.org/my/conference?conf=manila25"
 
 [[menu.main]]
-identifier = "previous"
-name = "Previous Workshops"
-url = "https://sites.google.com/view/ir-for-climate-impact/previous-workshops/manila24-workshop-page"
+identifier = "submit"
+name = "Submit"
+url = "https://easychair.org/my/conference?conf=manila25"
+weight = 10
+
+[[menu.main]]
+identifier = "sigir2025"
+name = "SIGIR 2025"
+url = "https://sigir2025.dei.unipd.it/"
 weight = 20
