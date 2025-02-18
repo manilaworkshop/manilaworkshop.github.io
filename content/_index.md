@@ -53,7 +53,7 @@ TBD
 
 For submissions: [EasyChair Portal](https://easychair.org/my/conference?conf=manila25)
 
-For general inquiries about the workshop: [Yugdeep Bangar](mailto:yugdeep.bangar@deltares.nl) - AI Officer, IPCC WGII TSU
+For general inquiries about the workshop: [Yugdeep Bangar](mailto:yugdeep.bangar@deltares.nl) (AI Officer, IPCC WGII TSU)
 
 ## Related Links
 - [IPCC Working Group II](https://www.ipcc.ch/working-group/wg2/)
