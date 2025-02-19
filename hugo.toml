@@ -1,6 +1,7 @@
 baseURL = "https://manilaworkshop.github.io/"
 title = "IR for Climate Impact @ SIGIR 2025"
-paginate = 5
+[pagination]
+pagerSize = 10
 theme = "PaperMod"
 
 enableRobotsTXT = true
